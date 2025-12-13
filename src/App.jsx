@@ -12,7 +12,7 @@ import Farmplots from  "../src/Pages/farmplots";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/sonagiri-ecommerce-site/">
 
         {/* NAVBAR ALWAYS VISIBLE */}
         <Navbar />
