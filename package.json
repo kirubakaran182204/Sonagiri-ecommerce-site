@@ -2,7 +2,7 @@
   "name": "sonagiri",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kirubakaran182204.github.io/Sonagiri-ecommerce-site",
+  "homepage": "https://kirubakaran182204.github.io/Sonagiri-ecommerce-site/",
   "type": "module",
   "scripts": {
     "dev": "vite",
