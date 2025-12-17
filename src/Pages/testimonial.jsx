@@ -1,6 +1,8 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Img1 from "../assets/testimonial/img1.png";
+import Img2 from "../assets/testimonial/img3.png"
 const testimonial = () => {
   return (
    
@@ -26,7 +28,7 @@ const testimonial = () => {
         }}
       >
         <img
-          src="src/assets/testimonial/img1.png"
+          src={Img1}
           alt="Testimonials"
           style={{
             width: "100%",
@@ -62,7 +64,7 @@ const testimonial = () => {
           >
             {/* IMAGE */}
             <img
-              src="src/assets/testimonial/img3.png"
+              src={Img2}
               alt="profile"
               style={{
                 width: "150px",

@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import img1 from "../assets/event/img1.png";
 const event = () => {
   return (
     <div>
@@ -19,7 +20,7 @@ const event = () => {
         }}
       >
         <img
-          src="src/assets/event/img1.png" // change the path to your image
+          src={img1} // change the path to your image
           alt="Upcoming Events"
           style={{
             width: "100%",

@@ -7,6 +7,13 @@ import img3 from "../assets/songiri property/img3.png"
 import img4 from "../assets/songiri property/img4.png"
 import img5 from "../assets/songiri property/img5.png"
 import img6 from "../assets/songiri property/img6.png"
+import bgimg1 from "../assets/bg img/img 1.png"
+import img02 from "../assets/bg img/img2.png"
+import img03 from "../assets/our services/img1.png"
+import img04 from "../assets/our services/img2.png"
+import img05 from "../assets/our services/img3.png"
+import img06 from "../assets/our services/img4.png"
+
 const Home = () => {
 
 
@@ -27,7 +34,7 @@ const cardData = [
       {/* FULL SCREEN IMAGE */}
       <div className='container-fluid' style={{ padding: 0 }}>
         <img
-          src="/src/assets/bg img/img 1.png"
+          src={bgimg1}
           alt=""
           style={{
             height: "100vh",
@@ -90,12 +97,12 @@ const cardData = [
           {/* RIGHT IMAGE */}
           <div className="col-md-5 col-12 d-flex justify-content-center justify-content-md-end mt-4 mt-md-0">
             <img
-              src="/src/assets/realestate/img1.png"
+              src={img02}
               alt="team"
               style={{
                 width: "100%",
                 maxWidth: "720px",
-                marginBottom: "-10px",
+                marginBottom: "0px",
               }}
             />
           </div>
@@ -121,7 +128,7 @@ const cardData = [
           {/* BUYING */}
           <div className="col-md-6">
             <img
-              src="/src/assets/our services/img1.png"
+              src={img3}
               alt="Buying"
               className="img-fluid shadow rounded"
               style={{ width: "100%" }}
@@ -131,7 +138,7 @@ const cardData = [
           {/* SELLING */}
           <div className="col-md-6">
             <img
-              src="/src/assets/our services/img2.png"
+              src={img4}
               alt="Selling"
               className="img-fluid shadow rounded"
               style={{ width: "100%" }}
@@ -141,7 +148,7 @@ const cardData = [
           {/* PLOTS */}
           <div className="col-md-6">
             <img
-              src="/src/assets/our services/img3.png"
+              src={img5}
               alt="Plots"
               className="img-fluid shadow rounded"
               style={{ width: "100%" }}
@@ -151,7 +158,7 @@ const cardData = [
           {/* FARMLANDS */}
           <div className="col-md-6">
             <img
-              src="/src/assets/our services/img4.png"
+              src={img6}
               alt="Farmlands"
               className="img-fluid shadow rounded"
               style={{ width: "100%" }}
