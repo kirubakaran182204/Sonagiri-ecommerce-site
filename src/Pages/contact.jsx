@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
+import img1 from "../assets/contact/img1.png"
 
 const Contact = () => {
   return (
@@ -27,7 +27,7 @@ const Contact = () => {
         }}
       >
         <img
-          src="src/assets/contact/img1.png"
+          src={img1}
           alt="Contact Banner"
           style={{
             width: "100%",
